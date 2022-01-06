@@ -1,0 +1,38 @@
+p{
+    text-align: center;
+}
+#title{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#car {
+    color: aqua;
+}
+#bike{
+    color: blue;
+}
+#plane{
+    color: blueviolet;
+}
+#heli{
+    color: brown;
+}
+#ship{
+    color: burlywood;
+}
+#submarine{
+    color: darkgray;
+}
+.onRoad{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.onAir{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.onWater{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}

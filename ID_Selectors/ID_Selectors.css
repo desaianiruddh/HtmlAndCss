@@ -1,0 +1,19 @@
+p{
+    text-align: center;
+}
+#title{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#car {
+    color: aqua;
+}
+#bike{
+    color: blue;
+}
+#plane{
+    color: blueviolet;
+}
+#truck{
+    color: brown;
+}
