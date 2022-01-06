@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Selector</title>
+    <link rel="stylesheet" href="Relative_selectors.css">
+</head>
+<body>
+    <p id="title">Relative Selector</p>
+    <!-- here v1 and v2 two distinct classes but we can select elements
+    as per requirements using their tags-->
+    <div class="vehicles">
+        <p id="car" class="v1">Cars </p>
+        <span id="bike" class="v1">Bikes </span> <!-- same classname but diff tag-->
+        <p id="plane" class="v1">Plane </p>
+        <p id="heli" class="v2">HeliCopter </p>
+        <span id="ship" class="v2">Ship</span><br>
+        <span id="submarine" class="v2">SubMarine </span>
+    </div>
+
+    <br><br><br>
+    <!-- In this portion class name of elements are same as above 
+        but all the elements are decendants of animal class-->
+    <span class="animal">
+        <div class="v1">Bull</div>
+        <div class="v1">Cow</div>
+        <div class="v1">Camel</div>
+        <h2 class="v2">Tiger</h2>
+        <h2 class="v2">Lion</h2>
+        <h2 class="v2">Fox</h2>
+    </span>
+
+</body>
+</html>
