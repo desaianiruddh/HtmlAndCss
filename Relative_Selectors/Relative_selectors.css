@@ -1,0 +1,58 @@
+/* Universal selector */
+*{
+    text-align: center;
+}
+#title{
+    text-decoration: underline;
+    font-weight: bolder;
+    
+}
+/* Selects all <p> elements where the parent is a <div> element */
+div>p{
+    font-weight: bold;
+}
+
+/* select all elements with class v1 which has p tag */
+p.v1{
+    font-size: larger;
+}
+
+/* select all elements with class v1 which has span tag */
+span.v1{
+    font-family: cursive;
+}
+
+/* class v2 are same but tags are diff*/
+p.v2{
+    font-size: smaller;
+}
+span.v2{
+    font-family: cursive;
+}
+
+/* Selects all elements with v1 that is a descendant of an element with animal class */
+.animal .v1{
+    text-transform: uppercase;
+    color: darkslateblue;
+}
+
+/* Selects all elements with v2 that is a descendant of an element with animal class */
+.animal .v2{
+    text-transform: lowercase;
+    color: darkturquoise;
+}
+
+/* first letter of element which has p tag and descendant of div */
+div>p::first-letter{
+    font-size: x-large;
+}
+
+/* first child of elements which has div tag and descendant of span */
+span>div:first-child{
+    text-decoration: underline;
+}
+
+/* last child of elements which has h2 tag and descendant of span */
+span>h2:last-child{
+    text-decoration: underline;
+}
