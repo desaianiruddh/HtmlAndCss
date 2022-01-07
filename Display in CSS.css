@@ -1,0 +1,27 @@
+/* Block-level Elements
+
+    <div>
+    <h1> - <h6>
+    <p>
+    <form>
+    <header>
+    <footer>
+    <section>
+
+Inline Elements
+
+    <span>
+    <a>
+    <img>
+
+we can overridw=e the rule using display property */
+    
+li {
+    display: inline;
+  }
+div {
+    display: inline;
+}
+span{
+    display: block;
+}
