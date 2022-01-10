@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: gainsboro;
+}
+/* nav elements organize using flex  */
+.nav {
+    margin: 0;
+    display: flex;
+    background-color: rgb(0, 0, 0);   
+    overflow: hidden;
+}
+.nav a{
+    color: white;
+    padding: 15px;
+    font-size: larger;
+    text-decoration: none;
+    display: block; 
+}
+/* when we hover mouse arrow on nav elements  */
+.nav a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* design image card  */
+.card{
+    padding: 20px;
+    background-color: white;
+    border:  double 3px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+/* container layout using flex display  */
+.container{
+    display: flex;
+    background-color: grey;
+    margin: 5px;
+    position: relative;
+}
+
+/* left side cards  */
+.l-side{
+    flex: 30%;
+    padding: 20px;
+}
+
+/* right side cards  */
+.r-side{
+    flex: 70%;
+    padding: 20px;
+}
+
+/* image align center  */
+img {
+    display: block;
+    margin: auto;
+}
+
+/* set footer and footer text  */
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    padding: 15px;
+}
+
+/* for responsive layout of container and navbar*/
+@media screen and (max-width: 1000px) {
+    .container {   
+      flex-direction: column;
+      padding: 0;
+    }
+}
+@media screen and (max-width:700px){
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
