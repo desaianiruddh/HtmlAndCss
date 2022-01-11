@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(181, 177, 255);
+}
+
+/* title of webpage  */
+.title{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 10px;
+}
+.title h4{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/* design for navbar  */
+.nav{
+    margin: 5px 0px;
+    background-color: rgb(56, 56, 56);
+    overflow: hidden;
+}
+/* navbar link elements */
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    float: left;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+/* when we hover on link element it will change the design  */
+.nav a:hover{
+    background-color: rgb(181, 177, 255);
+    color: rgb(56, 56, 56);
+}
+
+/* both column has diff width ratio  */
+.l-col{
+    width: 70%;
+    float: left;
+   
+}
+.r-col{
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* design for card  */
+.card {
+    background-color: white;
+    padding: 10px;
+    margin: 20px 30px;
+    border: 3px double black;
+    width:90%;
+    overflow: hidden;
+}
+.card2{
+    margin-top: 50px;
+}
+
+/* image align center  */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* footer at bottom of webpage  */
+.footer{
+    height: 70px;
+    bottom: 0;
+    background-color: rgb(56, 56, 56);
+}
+.footer .txt{
+     color: white;
+     text-align: center;
+     font-size: 40px;
+}
+
+/* when screen size less than 1000px then both column set in single column */
+@media screen and (max-width: 1000px) {
+    .l-col, .r-col {   
+      width: 100%;
+      padding: 0;
+    }
+}
+  
+/* when screen is less than 500px then navbar elements set in single column */
+@media screen and (max-width: 500px) {
+    .nav a {
+      float: none;
+      width: 100%;
+    }
+}
