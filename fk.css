@@ -19,7 +19,6 @@
     
     .navbar .container {
         margin: 0px 150px;
-        display: flex;
     }
     
     .nav-img>img {
@@ -136,6 +135,8 @@
         }
         .deal-item {
             margin-top: 15px;
+            justify-content: center;
+            margin-left: 50px;
         }
     }
     /* shopping row 1  */
