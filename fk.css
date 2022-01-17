@@ -1,0 +1,160 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    /* navbar */
+    
+    .maincont {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    nav {
+        font-size: large;
+    }
+    
+    .navbar .container {
+        margin: 0px 150px;
+    }
+    
+    .nav-img>img {
+        max-height: 50px;
+        max-width: 70px;
+    }
+    
+    input[type=search] {
+        border-right: 0;
+        border-radius: 0;
+        max-width: 450px;
+    }
+    
+    form {
+        margin: 0 50px 0 0;
+        max-width: 500px;
+    }
+    
+    button.searchBtn {
+        background-color: white;
+        border: 0;
+    }
+    
+    .logBtn>a {
+        border-radius: 2px;
+        width: 100px;
+        padding: 2px 4px;
+    }
+    
+    .cart a {
+        width: 112px;
+    }
+    
+    @media screen and (max-width:800px) {
+        .navbar .container {
+            margin: 0px 80px;
+        }
+        form {
+            margin: 0 50px 0 0px;
+            max-width: 200px;
+        }
+    }
+    /* menu */
+    
+    .menu {
+        border-bottom: 1px solid rgb(179, 179, 179);
+    }
+    
+    .menuItem {
+        padding: 12px 15px 12px 22px;
+    }
+    
+    .menuImg {
+        max-width: 63px;
+        max-height: 63px;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        font-size: small;
+    }
+    
+    @media screen and (max-width:800px) {
+        .menu {
+            justify-content: space-around;
+        }
+    }
+    /* Deal of the day portion */
+    
+    .deal img {
+        width: 100px;
+        height: 260px;
+        max-width: 150px;
+        max-height: 260px;
+        object-fit: fill;
+    }
+    
+    .deal {
+        width: 200px;
+        max-width: 280px;
+        max-height: 300px;
+        overflow: hidden;
+        border: 2px solid rgb(255, 153, 0);
+    }
+    
+    .dealDisc {
+        font-size: small;
+        text-decoration: none;
+    }
+    
+    .deal-item img {
+        width: 130px;
+        height: 150px;
+        max-width: 150px;
+        object-fit: contain;
+        background-color: white;
+    }
+    
+    .leftdeal {
+        width: 1100px;
+    }
+    
+    @media screen and (max-width:1100px) {
+        .dealday {
+            flex-direction: column;
+            align-content: space-around;
+        }
+        .deal {
+            margin-top: 15px;
+            padding: 5px;
+        }
+        .leftdeal {
+            width: auto;
+        }
+        .deal-item {
+            margin-top: 15px;
+            justify-content: center;
+            margin-left: 50px;
+        }
+    }
+    /* shopping row 1  */
+    
+    .shopListHead {
+        width: 1200px;
+        max-width: 1200px;
+        height: 63px;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 1px solid rgb(179, 179, 179);
+    }
+    
+    .shopItem1 {
+        width: 1200px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    @media screen and (max-width:1000px) {}
