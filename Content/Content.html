@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Content</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        div.container-fluid {
+            border: 3px solid black;
+        }
+        
+        tbody {
+            border: 4px solid black;
+        }
+        
+        thead {
+            border: 4px solid black;
+        }
+        
+        td {
+            border-right: 2px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="h2 text-center bg-primary py-3">TypoGraphy, Responsive Image & Table</div>
+    <div class="h4 mt-4 text-center bg-secondary">1).TypoGraphy</div>
+    <!-- heading size h1 to h6 -->
+    <p class="h1">h1. Bootstrap</p>
+    <p class="h2">h2. Bootstrap</p>
+    <p class="h3">h3. Bootstrap</p>
+    <p class="h4">h4. Bootstrap</p>
+    <p class="h5">h5. Bootstrap</p>
+    <p class="h6">h6. Bootstrap</p>
+
+    <!-- we can apply faded effect on secomdary text  -->
+    <div class="h5 mt-5 bg-light">
+        Primary text
+        <span class="text-muted">secondary text</span>
+    </div>
+
+    <!-- we can appply size using display property -->
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
+    <h1 class="display-5">Display 5</h1>
+    <h1 class="display-6">Display 6</h1>
+
+    <div class="h4 mt-4 text-center bg-secondary">2).Responsive Image</div>
+    <!-- image become responsive to container -->
+    <div class="container bg-light mx-auto m-3">
+        <img src="a1.jpg" class="img-fluid py-3 mx-auto d-block">
+    </div>
+    <!-- using flex we can made images respomsive  -->
+    <div class="container-fluid bg-light mx-auto m-3 d-flex justify-content-between p-3 flex-wrap">
+        <img src="a1.jpg" class="img-fluid pt-3 mx-auto">
+        <img src="a1.jpg" class="img-fluid pt-3 mx-auto">
+        <img src="a1.jpg" class="img-fluid pt-3 mx-auto">
+    </div>
+
+    <div class="h4 mt-4 text-center bg-secondary">3).Table</div>
+    <!-- table has stripend like zebra crossing and hover effect -->
+    <section class="container-fluid">
+        <table class="table table-striped table-light table-hover mx-auto m-5">
+            <thead class="h5 text-center">
+                <td>Sr.</td>
+                <td>Fname</td>
+                <td>Sname</td>
+                <td>Marks</td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>C</td>
+                    <td>D</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>E</td>
+                    <td>F</td>
+                    <td>9</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>
